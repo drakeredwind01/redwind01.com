@@ -1,0 +1,54 @@
+    -[Done] make todo.txt
+            touch todo.txt
+    -[Done] create virtual env
+            python3 -m venv venv
+            venv\scripts\activate
+    -[Done] Install and setup django
+            Install django
+                pip install django
+            setup django
+                django-admin startproject {redwind01}
+    -[Done] Init database, super user, test run
+            Init database
+                cd {redwind01}
+                python manage.py migrate
+            super user
+                python manage.py createsuperuser
+                {fill stuff in}
+            test run
+                python manage.py runserver
+                    # development server at http://127.0.0.1:8000/
+    -[Done] Create core app for base pages
+            python manage.py startapp core
+    -[    ] Creat app for userprofiles
+    -[    ] Create app for products
+     [    ]    -Add categorty model
+    -[    ] List out newest products on the front page
+    -[    ] Product detail view 
+    -[    ] categorty view
+    -[    ] Simple search
+    -[    ] Vendor detail page
+    -[    ] Make it possible to sign up, log in and log out
+    -[    ] Create my account page
+    -[    ] Add product to the categorty
+    -[    ] View cart
+    -[    ] Checkout
+    -[    ] Implement payment gateway
+    -[    ] Admin pages for the Vendor
+    -[    ] Deploy project
+    just to push
+
+
+basic site setup
+    touch todo.txt
+    python3 -m venv venv
+    venv\scripts\activate
+    pip install django
+    django-admin startproject redwind01
+    cd {redwind01}
+    python manage.py migrate
+    python manage.py createsuperuser
+    python manage.py runserver
+
+
+

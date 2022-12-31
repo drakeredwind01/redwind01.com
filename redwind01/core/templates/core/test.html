@@ -1,0 +1,31 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+Welcome
+{% endblock %}
+
+
+{% block content %} 
+    <h1>Test</h1>
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="lg:content-auto">
+    <!-- ... -->
+  </div>
+</body>
+</html>
+{% endblock %} 
