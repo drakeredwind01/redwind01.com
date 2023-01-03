@@ -21,6 +21,8 @@
     -[Done] Create core app for base pages
             python manage.py startapp core
     -[    ] Creat app for userprofiles
+            python manage.py startapp userprofile
+                # add "'userprofile'," to settings.py
     -[    ] Create app for products
      [    ]    -Add categorty model
     -[    ] List out newest products on the front page
@@ -39,6 +41,13 @@
     just to push
 
 
+D:
+Cd D:\documents\GitHub\redwind01.com
+venv\scripts\activate
+Cd D:\documents\GitHub\redwind01.com\redwind01
+python manage.py runserver
+
+
 basic site setup
     touch todo.txt
     python3 -m venv venv
@@ -48,7 +57,9 @@ basic site setup
     cd {redwind01}
     python manage.py migrate
     python manage.py createsuperuser
-    python manage.py runserver
+    # make superuser
+    # python manage.py runserver
+    python manage.py startapp userprofile
 
 
 

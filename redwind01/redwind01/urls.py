@@ -17,10 +17,10 @@ from django.contrib import admin
 from django.urls import path
 
 
-from core.views import frontpage, about #breaks when I add this ", test"
+from core.views import frontpage, about, test#breaks when I add this ", test"
 
 
-
+# need to add to core.views and redwind01.urls
 urlpatterns = [
     path('', frontpage, name='frontpage'),
     path('about/', about, name='about'),
